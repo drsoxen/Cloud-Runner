@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZCloudRunner", "ZCloudRunner\ZCloudRunner.csproj", "{25E5339C-DDC8-416C-BD7F-CEA32A5D3A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deviator", "Deviator\Deviator.csproj", "{4C5A6932-855B-48BF-99FF-C3E96FC48C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E5339C-DDC8-416C-BD7F-CEA32A5D3A9D}.Debug|x86.ActiveCfg = Debug|x86
+		{25E5339C-DDC8-416C-BD7F-CEA32A5D3A9D}.Debug|x86.Build.0 = Debug|x86
+		{25E5339C-DDC8-416C-BD7F-CEA32A5D3A9D}.Release|x86.ActiveCfg = Release|x86
+		{25E5339C-DDC8-416C-BD7F-CEA32A5D3A9D}.Release|x86.Build.0 = Release|x86
+		{4C5A6932-855B-48BF-99FF-C3E96FC48C23}.Debug|x86.ActiveCfg = Debug|x86
+		{4C5A6932-855B-48BF-99FF-C3E96FC48C23}.Debug|x86.Build.0 = Debug|x86
+		{4C5A6932-855B-48BF-99FF-C3E96FC48C23}.Release|x86.ActiveCfg = Release|x86
+		{4C5A6932-855B-48BF-99FF-C3E96FC48C23}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

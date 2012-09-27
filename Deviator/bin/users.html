@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<style type="text/css">
+		</style>
+		<script type="text/javascript">
+			var done_str="";
+			var masterdoc;
+			var childdoc;
+			function handle_user()
+			{
+				
+			}
+			function handle_master()
+			{
+				if(masterdoc.readyState == 4)
+				{
+				}
+			}
+			function runscript()
+			{
+				masterdoc=new ActiveXObject("Microsoft.XMLDOM");
+				masterdoc.async="false";
+				masterdoc.onreadystatechange = handle_master;
+				masterdoc.load("users.xml");
+				document.getElementById("body_p").innerHTML=done_str + "butt";
+			}
+		</script>
+	</head>
+	<body onload="runscript()">
+		<p id="body_p"/>
+	</body>
+</html>
